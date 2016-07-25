@@ -41,10 +41,6 @@
     return [UIApplication sharedApplication].statusBarHidden;
 }
 
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return self.statusBarStyle;
-}
-
 - (void)loadView {
     self.view = [[CRToastContainerView alloc] init];
 }
